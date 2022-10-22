@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/seo-check-list/static/css/main.b2010e2c.css",
+    "main.js": "/seo-check-list/static/js/main.1480f51e.js",
+    "index.html": "/seo-check-list/index.html",
+    "main.b2010e2c.css.map": "/seo-check-list/static/css/main.b2010e2c.css.map",
+    "main.1480f51e.js.map": "/seo-check-list/static/js/main.1480f51e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2010e2c.css",
+    "static/js/main.1480f51e.js"
+  ]
+}
