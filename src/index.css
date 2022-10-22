@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.task::before {
+    background: radial-gradient(
+            400px circle at var(--mouse-x) var(--mouse-y),
+            rgba(255, 255, 255, 0.05),
+            transparent 40%
+    );
+    height: 100%;
+    content: "";
+    border-radius: inherit;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    opacity: 1;
+    transition: opacity 500ms;
+    pointer-events: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
